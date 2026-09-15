@@ -1,109 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Ipatinga Tour</title>
 </head>
+
 <body>
     <div class="page-shell">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="images/logo.png" alt="Logo do site" height="30">
-    </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo do site" height="30">
+                </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="collapse navbar-collapse" id="menuPrincipal">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link text-white" href="#">Início</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#">Pontos Turísticos</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#">Gastronomia</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#">Contato</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Início</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Pontos Turísticos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Gastronomia</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <main class="page-main">
-            <section class="hero">
-                <div class="hero-content">
-                    <h1>Descubra o coração do Vale do Aço</h1>
-                    <p>Explore os melhores pontos turísticos, gastronomia e cultura da cidade</p>
-                    <a href="#" class="cta-button">Conheça os pontos turísticos</a>
+            <section class="hero text-white">
+                <div class="container py-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h1 class="display-5 fw-bold">Descubra o coração do Vale do Aço</h1>
+                            <p class="lead">Explore os melhores pontos turísticos, gastronomia e cultura da cidade</p>
+                            <a href="#" class="btn btn-success btn-lg mt-3">Conheça os pontos turísticos</a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <section class="cards">
-                <article class="card">
-                    <div class="card-image image-1"></div>
-                    <h3>Parque Ipanema</h3>
-                </article>
+            <section class="container my-4">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <article class="card h-100 shadow-sm">
+                            <div class="card-image image-1"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Parque Ipanema</h3>
+                            </div>
+                        </article>
+                    </div>
 
-                <article class="card">
-                    <div class="card-image image-2"></div>
-                    <h3>Estação Memória</h3>
-                </article>
+                    <div class="col-md-4">
+                        <article class="card h-100 shadow-sm">
+                            <div class="card-image image-2"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Estação Memória</h3>
+                            </div>
+                        </article>
+                    </div>
 
-                <article class="card">
-                    <div class="card-image image-3"></div>
-                    <h3>Clube Usipa</h3>
-                </article>
+                    <div class="col-md-4">
+                        <article class="card h-100 shadow-sm">
+                            <div class="card-image image-3"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Clube Usipa</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </section>
 
-            <section class="newsletter">
-                <div class="newsletter-content">
-                    <h2>Receba novidades do Vale do Aço</h2>
-                    <p>Fique por dentro de eventos, dicas e atrações exclusivas da cidade.</p>
-                </div>
+            <section class="bg-light py-5">
+                <div class="container">
+                    <div class="row align-items-center g-3">
+                        <div class="col-lg-6">
+                            <h2>Receba novidades do Vale do Aço</h2>
+                            <p>Fique por dentro de eventos, dicas e atrações exclusivas da cidade.</p>
+                        </div>
 
-                <form class="newsletter-form">
-                    <input class="form-field" type="text" placeholder="Seu nome" aria-label="Seu nome">
-                    <input class="form-field" type="email" placeholder="Seu e-mail" aria-label="Seu e-mail">
-                    <button type="submit" class="form-button">Quero receber</button>
-                </form>
+                        <div class="col-lg-6">
+                            <form class="row g-2">
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text" placeholder="Seu nome"
+                                        aria-label="Seu nome">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="email" placeholder="Seu e-mail"
+                                        aria-label="Seu e-mail">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-success w-100">Quero receber</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
-        <footer class="site-footer">
-            <div class="footer-grid">
-                <div class="brand">
-                    <h4>IPATINGA TOUR</h4>
-                    <p>Descubra os encantos da Capital do Aço</p>
-                </div>
+        <footer class="bg-success text-white py-4">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <h4 class="fw-bold">IPATINGA TOUR</h4>
+                        <p>Descubra os encantos da Capital do Aço</p>
+                    </div>
 
-                <div class="quick-links">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Pontos turísticos</a></li>
-                        <li><a href="#">Gastronomia</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </div>
+                    <div class="col-md-4">
+                        <h4 class="fw-bold">Links Rápidos</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white text-decoration-none">Início</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Pontos turísticos</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Gastronomia</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Contato</a></li>
+                        </ul>
+                    </div>
 
-                <div class="contact">
-                    <h4>Fale Conosco</h4>
-                    <p>contato@ipatingatour.com</p>
-                    <div class="social-icons">
-                        <span>◎</span>
-                        <span>f</span>
+                    <div class="col-md-4">
+                        <h4 class="fw-bold">Fale Conosco</h4>
+                        <p>contato@ipatingatour.com</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="copyright">© 2026 Ipatinga Tour - Todos os direitos reservados</div>
+                <div class="text-center mt-3 small">
+                    © 2026 Ipatinga Tour - Todos os direitos reservados
+                </div>
+            </div>
         </footer>
     </div>
 </body>
+
 </html>
