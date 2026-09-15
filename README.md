@@ -7,7 +7,7 @@ Bernardo Almeida Andrade
 
 ![Homepage - Desktop 1](images/desktop1.png)
 
-![Homepage - Desktop 2](images/desktop2.png2.png)
+![Homepage - Desktop 2](images/desktop2.png)
 
 ## Versão Mobile
 
